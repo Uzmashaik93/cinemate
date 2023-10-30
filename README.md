@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Route App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this app, I have implement smooth navigation and multi-page functionality using React Router.
 
 ## Available Scripts
 
