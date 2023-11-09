@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import { useTitle } from "../hooks/useTitle";
 import Backup from "../assets/images/backup.png";
+
 
 export const MovieDetail = () => {
   const params = useParams();
@@ -8,8 +10,6 @@ export const MovieDetail = () => {
   const image = movie.poster_path
     ? `https://image.tmdb.org/t/p/w500/${movie.poster_path}`
     : Backup;
-
-  // Fetch movie data on component mount
 
   useEffect(() => {
     async function fetchMovie() {
@@ -21,6 +21,10 @@ export const MovieDetail = () => {
     }
     fetchMovie();
   }, []);
+
+  useTitle(movie.title);
+  
+ 
 
   return (
     <main>
