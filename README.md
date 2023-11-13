@@ -1,6 +1,6 @@
 # Cinemate
 
-Welcome to the Movie List Web Application! Cinemate is a web application that allows users to explore a vast collection of movies find their ratings. Whether users are looking for the latest blockbusters, timeless classics, or hidden gems, your application will provide a seamless browsing experience.
+Welcome to the Movie List Web Application! Cinemate is a web application that allows users to explore a vast collection of movies and find their ratings. Whether users are looking for the latest blockbusters, timeless classics, or hidden gems, your application will provide a seamless browsing experience.
 
 ## Available Scripts
 
